@@ -13,24 +13,29 @@ body{
 }
 
 .top .one{
-    color: #F9FAF8;
     flex: auto;
-    text-align: center;
+    
 }
 
 #hero_main{
     font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+    text-align: center;
+}
+
+#hero_secondary{
+    font-size: 18px;
+    color: #F9FAF8;
 }
 
 .top .two{
     color: #F9FAF8;
     flex: auto;
     text-align: center;
-    font-size: 48px;
+    font-size: 10px;
 
 }
-
-
 
 .middle1{
     display: flex;
