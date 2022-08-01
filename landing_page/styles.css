@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    background-color: #1F2937;
+    flex: auto;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.top .one{
+    color: #F9FAF8;
+    flex: auto;
+    text-align: center;
+}
+
+
+
+.middle1{
+    display: flex;
+    flex: auto;
+    height: 200px;
+}
+
+.middle2{
+    display: flex;
+    flex: auto;
+    height: 200px;
+}
+
+.bottom{
+    display: flex;
+    flex: auto;
+    height: 200px;
+}
+
