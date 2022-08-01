@@ -7,7 +7,7 @@ body{
     display: flex;
     background-color: #1F2937;
     flex: auto;
-    height: 200px;
+    
     justify-content: center;
     align-items: center;
 }
@@ -18,23 +18,35 @@ body{
     text-align: center;
 }
 
+#hero_main{
+    font-size: 48px;
+}
+
+.top .two{
+    color: #F9FAF8;
+    flex: auto;
+    text-align: center;
+    font-size: 48px;
+
+}
+
 
 
 .middle1{
     display: flex;
     flex: auto;
-    height: 200px;
+    
 }
 
 .middle2{
     display: flex;
     flex: auto;
-    height: 200px;
+    
 }
 
 .bottom{
     display: flex;
     flex: auto;
-    height: 200px;
+    
 }
 
