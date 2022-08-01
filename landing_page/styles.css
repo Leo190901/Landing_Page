@@ -3,18 +3,50 @@ body{
     flex-direction: column;
 }
 
+
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: center;
+    gap: 1000px;
+    align-items: center;
+    flex: auto;
+}
+
+.right_header{
+    display: flex;
+    text-align: right;
+    gap: 20px;
+    flex: auto;
+}
+
+#logo{
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    flex: auto;
+}
+
+
+
+
+
+
 .top{
     display: flex;
     background-color: #1F2937;
     flex: auto;
-    
     justify-content: center;
     align-items: center;
+    border: 5px solid blue;
 }
 
 .top .one{
+    width: 10px;
     flex: auto;
-    
+    border: 5px solid green;
 }
 
 #hero_main{
@@ -22,20 +54,29 @@ body{
     color: #F9FAF8;
     font-weight: bold;
     text-align: center;
+    border: 5px solid green;
 }
 
 #hero_secondary{
     font-size: 18px;
     color: #F9FAF8;
+    border: 5px solid green;
 }
 
 .top .two{
     color: #F9FAF8;
     flex: auto;
-    text-align: center;
-    font-size: 10px;
+    width: 5px;
+    border: 5px solid red;
 
 }
+
+
+
+
+
+
+
 
 .middle1{
     display: flex;
