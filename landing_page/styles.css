@@ -1,6 +1,8 @@
 body{
-    display: flex;
-    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
 
@@ -10,23 +12,27 @@ body{
     background-color: #1F2937;
     color: #F9FAF8;
     justify-content: center;
-    gap: 1000px;
+    gap: 500px;
     align-items: center;
-    flex: auto;
+    
 }
 
 .right_header{
     display: flex;
     text-align: right;
     gap: 20px;
-    flex: auto;
+    flex: 1;
+    border: 5px solid green;
+    margin: 10px;
+    justify-content: center;
 }
 
 #logo{
     font-weight: bold;
     text-align: center;
     font-size: 24px;
-    flex: auto;
+    flex: 1;
+    border: 5px solid red;
 }
 
 
@@ -36,17 +42,22 @@ body{
 
 .top{
     display: flex;
+    color: #F9FAF8;
     background-color: #1F2937;
-    flex: auto;
-    justify-content: center;
     align-items: center;
-    border: 5px solid blue;
+    justify-content: center;
+    padding: 90px;
+    
 }
 
 .top .one{
-    width: 10px;
-    flex: auto;
-    border: 5px solid green;
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+
+    
 }
 
 #hero_main{
@@ -54,20 +65,22 @@ body{
     color: #F9FAF8;
     font-weight: bold;
     text-align: center;
-    border: 5px solid green;
+    
 }
 
 #hero_secondary{
     font-size: 18px;
     color: #F9FAF8;
-    border: 5px solid green;
+}
+
+button{
+    width: 100px;
+    background-color: blue;
+    color: white;
 }
 
 .top .two{
     color: #F9FAF8;
-    flex: auto;
-    width: 5px;
-    border: 5px solid red;
 
 }
 
